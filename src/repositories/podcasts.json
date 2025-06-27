@@ -1,0 +1,32 @@
+
+[
+    {
+        "podcastName": "Flow",
+        "episode": "CBUM - Flow #319",
+        "videoId": "pQSuQmUfS30",
+        "category": [
+            "saúde", 
+            "esporte", 
+            "fitness"
+        ]
+    },
+    {
+        "podcastName": "Flow",
+        "episode": "CBUM - Flow #319",
+        "videoId": "pQSuQmUfS30",
+        "category": [
+            "esporte", 
+            "corrida"
+        ]
+    },
+    {
+        "podcastName": "Flow",
+        "episode": "Gabriel - Flow #400",
+        "videoId": "pQSuQmUfS30",
+        "category": [ 
+            "leitura",
+            "treino",
+            "programacao"
+        ]
+    }
+]

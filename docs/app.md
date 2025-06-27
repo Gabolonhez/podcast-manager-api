@@ -20,7 +20,9 @@ Podcast made by videos
     Listar os episódios podcasts por sessões de categorias
 
 #### How to implement:
-    Retornar em uma API Rest (json) o nome do podcast, nome do episódio, imagem de capa, link, categoria
+    GET: Retornar list de episódios
+
+    response:
         ```
         [
             {
@@ -41,3 +43,5 @@ Podcast made by videos
             },
         ],
         ```
+
+    GET: Retornar lista de episódios baseados em um parâmetro enviado pelo cliente do nome do podcast
