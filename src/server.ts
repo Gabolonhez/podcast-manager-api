@@ -1,13 +1,8 @@
 import * as http from 'http';
-import { getListEpisodes } from './controllers/podcasts-controller.js';
+import { app } from './app';
 
-const server = http.createServer(
-async (request: http.IncomingMessage, response: http.ServerResponse) => {
 
-    if (request.method === "GET") {
-        await getListEpisodes(request, response);
-    }
-})
+const server = http.createServer(app);
 
 const port = process.env.PORT;
 
