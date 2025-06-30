@@ -10,7 +10,7 @@ export const serviceListEpisodes = async (): Promise<PodcastTransferModel> => {
     // Define contract
     
     let responseFormat: PodcastTransferModel = {
-            statusCode:  0,
+            statusCode:  "0",
             body: data,
     } 
 
